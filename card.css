@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    font-family: 'Open Sans';
+    background-color: rgb(0, 228, 140);
+}
+
+.b-card {
+    max-width: 75vw;
+    max-height: 80vh;
+    background-color: #fff;
+    padding: 5vh 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.5em;
+    box-shadow: 0 0 5px aqua;
+}
+
+.b-card img {
+    width: 25vw;
+    height: auto;
+}
+
+p.muted {
+    opacity: 0.8;
+}
+
+
+
+@media screen and (max-width:760px){
+    .b-card img {
+        width: 60vw;
+    }
+}
